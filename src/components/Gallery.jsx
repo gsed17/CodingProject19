@@ -21,7 +21,7 @@ function Gallery({ tours, setTours, onRemove }) {
   }, []);
 
   if (loading) return <p>Loading tours...</p>;
-  if (error) return <p>Something went wrong. Try again later.</p>;
+  if (error) return <p>Something went wrong. Please Try again later.</p>;
 
   return (
     <div className="gallery">
