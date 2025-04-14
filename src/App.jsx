@@ -11,7 +11,7 @@ function App() {
 
   return (
     <main>
-      <h1>Our Tours</h1>
+      <h1>Explore Our Tours</h1>
       <Gallery tours={tours} setTours={setTours} onRemove={removeTour} />
     </main>
   );
