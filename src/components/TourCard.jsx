@@ -16,8 +16,9 @@ function TourCard({ id, name, info, image, price, onRemove }) {
           </button>
         </p>
         <button className="remove-btn" onClick={() => onRemove(id)}>
-          Not Interested
-        </button>
+  Remove Tour
+</button>
+
       </div>
     </div>
   );
